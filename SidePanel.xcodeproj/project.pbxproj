@@ -1,0 +1,436 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		67B485C01B58F9AE0037F585 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B485BF1B58F9AE0037F585 /* AppDelegate.swift */; };
+		67B485C51B58F9AE0037F585 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67B485C31B58F9AE0037F585 /* Main.storyboard */; };
+		67B485C71B58F9AE0037F585 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67B485C61B58F9AE0037F585 /* Images.xcassets */; };
+		67B485CA1B58F9AF0037F585 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 67B485C81B58F9AF0037F585 /* LaunchScreen.xib */; };
+		67B485D61B58F9AF0037F585 /* SidePanelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B485D51B58F9AF0037F585 /* SidePanelTests.swift */; };
+		67B485E01B58F9E20037F585 /* ContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B485DF1B58F9E20037F585 /* ContainerViewController.swift */; };
+		67B485E21B58FF0B0037F585 /* CenterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B485E11B58FF0B0037F585 /* CenterViewController.swift */; };
+		67B485E41B58FF410037F585 /* SidePanelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B485E31B58FF410037F585 /* SidePanelViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		67B485D01B58F9AF0037F585 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 67B485B21B58F9AE0037F585 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 67B485B91B58F9AE0037F585;
+			remoteInfo = SidePanel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		67B485BA1B58F9AE0037F585 /* SidePanel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SidePanel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		67B485BE1B58F9AE0037F585 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67B485BF1B58F9AE0037F585 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		67B485C41B58F9AE0037F585 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		67B485C61B58F9AE0037F585 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		67B485C91B58F9AF0037F585 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		67B485CF1B58F9AF0037F585 /* SidePanelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SidePanelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		67B485D41B58F9AF0037F585 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67B485D51B58F9AF0037F585 /* SidePanelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidePanelTests.swift; sourceTree = "<group>"; };
+		67B485DF1B58F9E20037F585 /* ContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContainerViewController.swift; sourceTree = "<group>"; };
+		67B485E11B58FF0B0037F585 /* CenterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CenterViewController.swift; sourceTree = "<group>"; };
+		67B485E31B58FF410037F585 /* SidePanelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SidePanelViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		67B485B71B58F9AE0037F585 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67B485CC1B58F9AF0037F585 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		67B485B11B58F9AE0037F585 = {
+			isa = PBXGroup;
+			children = (
+				67B485BC1B58F9AE0037F585 /* SidePanel */,
+				67B485D21B58F9AF0037F585 /* SidePanelTests */,
+				67B485BB1B58F9AE0037F585 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		67B485BB1B58F9AE0037F585 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				67B485BA1B58F9AE0037F585 /* SidePanel.app */,
+				67B485CF1B58F9AF0037F585 /* SidePanelTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		67B485BC1B58F9AE0037F585 /* SidePanel */ = {
+			isa = PBXGroup;
+			children = (
+				67B485BF1B58F9AE0037F585 /* AppDelegate.swift */,
+				67B485C31B58F9AE0037F585 /* Main.storyboard */,
+				67B485E31B58FF410037F585 /* SidePanelViewController.swift */,
+				67B485E11B58FF0B0037F585 /* CenterViewController.swift */,
+				67B485DF1B58F9E20037F585 /* ContainerViewController.swift */,
+				67B485C61B58F9AE0037F585 /* Images.xcassets */,
+				67B485C81B58F9AF0037F585 /* LaunchScreen.xib */,
+				67B485BD1B58F9AE0037F585 /* Supporting Files */,
+			);
+			path = SidePanel;
+			sourceTree = "<group>";
+		};
+		67B485BD1B58F9AE0037F585 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				67B485BE1B58F9AE0037F585 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		67B485D21B58F9AF0037F585 /* SidePanelTests */ = {
+			isa = PBXGroup;
+			children = (
+				67B485D51B58F9AF0037F585 /* SidePanelTests.swift */,
+				67B485D31B58F9AF0037F585 /* Supporting Files */,
+			);
+			path = SidePanelTests;
+			sourceTree = "<group>";
+		};
+		67B485D31B58F9AF0037F585 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				67B485D41B58F9AF0037F585 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		67B485B91B58F9AE0037F585 /* SidePanel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67B485D91B58F9AF0037F585 /* Build configuration list for PBXNativeTarget "SidePanel" */;
+			buildPhases = (
+				67B485B61B58F9AE0037F585 /* Sources */,
+				67B485B71B58F9AE0037F585 /* Frameworks */,
+				67B485B81B58F9AE0037F585 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SidePanel;
+			productName = SidePanel;
+			productReference = 67B485BA1B58F9AE0037F585 /* SidePanel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		67B485CE1B58F9AF0037F585 /* SidePanelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67B485DC1B58F9AF0037F585 /* Build configuration list for PBXNativeTarget "SidePanelTests" */;
+			buildPhases = (
+				67B485CB1B58F9AF0037F585 /* Sources */,
+				67B485CC1B58F9AF0037F585 /* Frameworks */,
+				67B485CD1B58F9AF0037F585 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				67B485D11B58F9AF0037F585 /* PBXTargetDependency */,
+			);
+			name = SidePanelTests;
+			productName = SidePanelTests;
+			productReference = 67B485CF1B58F9AF0037F585 /* SidePanelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		67B485B21B58F9AE0037F585 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = ldi;
+				TargetAttributes = {
+					67B485B91B58F9AE0037F585 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					67B485CE1B58F9AF0037F585 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 67B485B91B58F9AE0037F585;
+					};
+				};
+			};
+			buildConfigurationList = 67B485B51B58F9AE0037F585 /* Build configuration list for PBXProject "SidePanel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 67B485B11B58F9AE0037F585;
+			productRefGroup = 67B485BB1B58F9AE0037F585 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				67B485B91B58F9AE0037F585 /* SidePanel */,
+				67B485CE1B58F9AF0037F585 /* SidePanelTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		67B485B81B58F9AE0037F585 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67B485C51B58F9AE0037F585 /* Main.storyboard in Resources */,
+				67B485CA1B58F9AF0037F585 /* LaunchScreen.xib in Resources */,
+				67B485C71B58F9AE0037F585 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67B485CD1B58F9AF0037F585 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		67B485B61B58F9AE0037F585 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67B485E21B58FF0B0037F585 /* CenterViewController.swift in Sources */,
+				67B485E41B58FF410037F585 /* SidePanelViewController.swift in Sources */,
+				67B485E01B58F9E20037F585 /* ContainerViewController.swift in Sources */,
+				67B485C01B58F9AE0037F585 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67B485CB1B58F9AF0037F585 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67B485D61B58F9AF0037F585 /* SidePanelTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		67B485D11B58F9AF0037F585 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 67B485B91B58F9AE0037F585 /* SidePanel */;
+			targetProxy = 67B485D01B58F9AF0037F585 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		67B485C31B58F9AE0037F585 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				67B485C41B58F9AE0037F585 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		67B485C81B58F9AF0037F585 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				67B485C91B58F9AF0037F585 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		67B485D71B58F9AF0037F585 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		67B485D81B58F9AF0037F585 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		67B485DA1B58F9AF0037F585 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SidePanel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		67B485DB1B58F9AF0037F585 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SidePanel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		67B485DD1B58F9AF0037F585 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SidePanelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SidePanel.app/SidePanel";
+			};
+			name = Debug;
+		};
+		67B485DE1B58F9AF0037F585 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SidePanelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SidePanel.app/SidePanel";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		67B485B51B58F9AE0037F585 /* Build configuration list for PBXProject "SidePanel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67B485D71B58F9AF0037F585 /* Debug */,
+				67B485D81B58F9AF0037F585 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67B485D91B58F9AF0037F585 /* Build configuration list for PBXNativeTarget "SidePanel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67B485DA1B58F9AF0037F585 /* Debug */,
+				67B485DB1B58F9AF0037F585 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67B485DC1B58F9AF0037F585 /* Build configuration list for PBXNativeTarget "SidePanelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67B485DD1B58F9AF0037F585 /* Debug */,
+				67B485DE1B58F9AF0037F585 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 67B485B21B58F9AE0037F585 /* Project object */;
+}
