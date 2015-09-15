@@ -14,8 +14,8 @@ protocol CenterViewControllerDelegate: class
     func toggleRightPanel()
     func addLeftPanelViewController()
     func addRightPanelViewController()
-    func animateLeftPanel(#shouldExpand: Bool)
-    func animateRightPanel(#shouldExpand: Bool)
+    func animateLeftPanel(shouldExpand shouldExpand: Bool)
+    func animateRightPanel(shouldExpand shouldExpand: Bool)
 }
 
 class CenterViewController: UIViewController
@@ -34,7 +34,7 @@ class CenterViewController: UIViewController
     
     @IBAction func leftBarButtonItemWasPressed(sender: UIBarButtonItem)
     {
-        println("leftBarButtonItemWasPressed")
+        print("leftBarButtonItemWasPressed")
         self.delegate.toggleLeftPanel()
     }
 }

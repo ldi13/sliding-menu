@@ -64,7 +64,7 @@ class ContainerViewController: UIViewController
         sidePanelController.didMoveToParentViewController(self)
     }
     
-    func animateLeftPanelXPosition(#targetPosition: CGFloat, completion: ((Bool) -> Void)! = nil) {
+    func animateLeftPanelXPosition(targetPosition targetPosition: CGFloat, completion: ((Bool) -> Void)! = nil) {
         UIView.animateWithDuration(0.5, delay: 0, usingSpringWithDamping: 0.8, initialSpringVelocity: 0, options: .CurveEaseInOut, animations: {
             self.leftViewController?.view.frame.origin.x = targetPosition
             }, completion: completion)
@@ -131,7 +131,7 @@ extension ContainerViewController : CenterViewControllerDelegate
     func addRightPanelViewController() {
     }
     
-    func animateLeftPanel(#shouldExpand: Bool)
+    func animateLeftPanel(shouldExpand shouldExpand: Bool)
     {
         if (shouldExpand) {
             currentState = .LeftPanelExpanded
@@ -150,6 +150,6 @@ extension ContainerViewController : CenterViewControllerDelegate
         
     }
     
-    func animateRightPanel(#shouldExpand: Bool) {
+    func animateRightPanel(shouldExpand shouldExpand: Bool) {
     }
 }
